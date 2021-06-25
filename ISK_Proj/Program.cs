@@ -10,8 +10,8 @@ namespace ISK_Proj
         {
             var graph = Graph.readFromFile("D:/t.xml");
 
-            var population = 1000;
-            var size = 1000;
+            var population = 100;
+            var size = 100;
 
             foreach (var edge in graph.Edges)
             {
@@ -20,7 +20,8 @@ namespace ISK_Proj
 
             var painter = new GraphPainter(graph, population, size, graph.Vertices.ToArray());
             var coloredGraph = painter.ColorGraph();
-            System.Console.WriteLine(coloredGraph.PrintColors());
+            coloredGraph.Print();
+            System.Console.WriteLine("Colors used: " + coloredGraph.VerticesColors.Select(x=>x.Value).Distinct().Count());
         }
     }
 }

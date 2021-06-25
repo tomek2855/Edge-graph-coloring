@@ -12,9 +12,9 @@ namespace ISK_Proj.Genetics
         private int[] RandomizeGenes(int[] geneValues)
         {
             Random rnd = new Random();
-            for (int i = 0; i<geneValues.Length;i++)
+            for (var i = 0; i<geneValues.Length;i++)
             {
-                int vertexColor = rnd.Next(0, geneValues.Length);
+                var vertexColor = rnd.Next(0, geneValues.Length);
                 geneValues[i] = vertexColor;
             }
             return geneValues;

@@ -17,17 +17,17 @@ namespace ISK_Proj.Genetics
         }
         protected override void PerformMutate(IChromosome chromosome, float probability)
         {
-            GraphColoringChromosome cpChromosome = chromosome as GraphColoringChromosome;
-            double rand = m_rnd.GetDouble();
+            var cpChromosome = chromosome as GraphColoringChromosome;
+            var rand = m_rnd.GetDouble();
             if (!(rand <= probability)) return;
                 
-            int[] genes = cpChromosome.GetValues();
+            var genes = cpChromosome.GetValues();
 
-            Graph graph = GraphProvider.Graph;
+            var graph = GraphProvider.Graph;
 
-            foreach (int vertex in graph.Vertices)
+            foreach (var vertex in graph.Vertices)
             {
-                IList<int> p = graph.NeighborsList(vertex);
+                var p = graph.NeighborsList(vertex);
                 if (p.Any(z => genes[z - 1] == genes[vertex - 1]))
                     genes[vertex - 1] = m_rnd.GetInt(0, chromosome.Length);
             }
