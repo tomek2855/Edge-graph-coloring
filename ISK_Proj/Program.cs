@@ -8,17 +8,16 @@ namespace ISK_Proj
     {
         static void Main(string[] args)
         {
-            var graph = Graph.readFromFile("D:/t.xml");
+            var graph = Graph.readFromFile("D:/graf.xml");
 
-            var population = 1000;
-            var size = 1000;
+            var size = 100;
 
             foreach (var edge in graph.Edges)
             {
                 System.Console.WriteLine(edge.toString);
             }
 
-            var painter = new GraphPainter(graph, population, size, graph.Vertices.ToArray());
+            var painter = new GraphPainter(graph, size, graph.Vertices.ToArray());
             var coloredGraph = painter.ColorGraph();
             System.Console.WriteLine(coloredGraph.PrintColors());
         }

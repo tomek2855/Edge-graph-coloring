@@ -38,23 +38,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tomcio\\.nuget\\packages\\": {},
+    "C:\\Users\\Pabiaszek\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\ISK_Proj\\ISK_Proj\\ISK_Proj\\ISK_Proj.csproj",
+      "projectUniqueName": "D:\\Pulpit\\studia\\stopień 2\\semestr 2\\Jędrzejec\\projekt\\ISK_Proj\\ISK_Proj.csproj",
       "projectName": "ISK_Proj",
-      "projectPath": "I:\\ISK_Proj\\ISK_Proj\\ISK_Proj\\ISK_Proj.csproj",
-      "packagesPath": "C:\\Users\\tomcio\\.nuget\\packages\\",
-      "outputPath": "I:\\ISK_Proj\\ISK_Proj\\ISK_Proj\\obj\\",
+      "projectPath": "D:\\Pulpit\\studia\\stopień 2\\semestr 2\\Jędrzejec\\projekt\\ISK_Proj\\ISK_Proj.csproj",
+      "packagesPath": "C:\\Users\\Pabiaszek\\.nuget\\packages\\",
+      "outputPath": "D:\\Pulpit\\studia\\stopień 2\\semestr 2\\Jędrzejec\\projekt\\ISK_Proj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tomcio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pabiaszek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,6 +66,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -77,6 +78,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "GeneticSharp": {
             "target": "Package",
@@ -98,7 +100,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

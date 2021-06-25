@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "40x1W4NtwfjleszXqSPKmp1gwJrJkPF87LqdREgjA/A6SvFGaQwk7IapvkhA7wsEAuxy/BqGadZehuZ4dYVx7Q==",
+  "dgSpecHash": "X45UYQ6aoXaBojNHDJvIXImAAwJ8Ik1bL6ldoWjnSl0jx/7lIlE4ptGuE1xtFzDoNTwJItFEPcOYawnpP40XbA==",
   "success": true,
-  "projectFilePath": "I:\\ISK_Proj\\ISK_Proj\\ISK_Proj\\ISK_Proj.csproj",
+  "projectFilePath": "D:\\Pulpit\\studia\\stopień 2\\semestr 2\\Jędrzejec\\projekt\\ISK_Proj\\ISK_Proj.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tomcio\\.nuget\\packages\\geneticsharp\\2.6.0\\geneticsharp.2.6.0.nupkg.sha512"
+    "C:\\Users\\Pabiaszek\\.nuget\\packages\\geneticsharp\\2.6.0\\geneticsharp.2.6.0.nupkg.sha512"
   ],
   "logs": []
 }

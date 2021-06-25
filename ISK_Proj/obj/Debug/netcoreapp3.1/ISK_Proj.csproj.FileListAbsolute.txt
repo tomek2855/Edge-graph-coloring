@@ -14,3 +14,19 @@ I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Domain.dll
 I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Infrastructure.Framework.dll
 I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CoreCompileInputs.cache
 I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CopyComplete
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.exe
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.deps.json
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.runtimeconfig.json
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.runtimeconfig.dev.json
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.dll
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.pdb
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Domain.dll
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Infrastructure.Framework.dll
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.AssemblyReference.cache
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.AssemblyInfoInputs.cache
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.AssemblyInfo.cs
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CoreCompileInputs.cache
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CopyComplete
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.dll
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.pdb
+D:\Pulpit\studia\stopień 2\semestr 2\Jędrzejec\projekt\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.genruntimeconfig.cache

@@ -12,14 +12,12 @@ namespace ISK_Proj.Genetics
     class GraphPainter
     {
         private Graph graph { get; set; }
-        private int population { get; set; }
         private int populationSize { get; set; }
         private int[] startValues { get; set; }
 
-        public GraphPainter(Graph graph, int population, int size, int[] startValues)
+        public GraphPainter(Graph graph, int size, int[] startValues)
         {
             this.graph = graph;
-            this.population = population;
             this.populationSize = size;
             this.startValues = startValues;
         }
@@ -27,7 +25,7 @@ namespace ISK_Proj.Genetics
         public Graph ColorGraph()
         {
             GraphProvider.SetGraph(graph);
-            GraphColoringChromosome chromosome = new GraphColoringChromosome(startValues.Length, startValues, population);
+            GraphColoringChromosome chromosome = new GraphColoringChromosome(startValues.Length, startValues);
             Population populationObject = new Population(populationSize, populationSize, chromosome);
             GraphColoringFitness fitness = new GraphColoringFitness();
             EliteSelection selection = new EliteSelection();
@@ -39,6 +37,7 @@ namespace ISK_Proj.Genetics
             int latestFitness = int.MinValue;
             int bestFitness = 0;
             GraphColoringChromosome bestChromosome = null;
+            int generationCounter = 0;
             ga.GenerationRan += (sender, e) =>
             {
                 bestChromosome = ga.BestChromosome as GraphColoringChromosome;
@@ -47,10 +46,12 @@ namespace ISK_Proj.Genetics
                 if (bestFitness == latestFitness) return;
                 latestFitness = bestFitness;
                 bestChromosome.GetValues();
+                generationCounter++;
             };
+            
             ga.Start();
 
-            Console.WriteLine("End");
+            Console.WriteLine("Generations count {0}", generationCounter);
 
             if (bestFitness > graph.Vertices.Count) return null;
 
