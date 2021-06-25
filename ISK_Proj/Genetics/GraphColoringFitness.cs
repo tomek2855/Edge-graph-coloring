@@ -10,17 +10,17 @@ namespace ISK_Proj.Genetics
     {
         public double Evaluate(IChromosome chromosome)
         {
-            GraphColoringChromosome localChromosome = chromosome as GraphColoringChromosome;
-            if(localChromosome == null) throw new InvalidProgramException("Chromosome cannot be null");
-            int[] chromosomeValues = localChromosome.GetValues();
-            Graph graph = GraphProvider.Graph;
+            var localChromosome = chromosome as GraphColoringChromosome;
 
-            bool hasAnyNeighborSameColor = false;
-            double countOfBadColoring = 0;
+            var chromosomeValues = localChromosome.GetValues();
+            var graph = GraphProvider.Graph;
+
+            var hasAnyNeighborSameColor = false;
+            var countOfBadColoring = 0.0;
             foreach (int vertex in graph.Vertices)
             {
-                IList<int> neighbors = graph.NeighborsList(vertex).ToList();
-                int colorOfCurrentVertex = chromosomeValues[vertex - 1];
+                var neighbors = graph.NeighborsList(vertex).ToList();
+                var colorOfCurrentVertex = chromosomeValues[vertex - 1];
                 hasAnyNeighborSameColor = hasAnyNeighborSameColor ||
                                             neighbors.Any(x => chromosomeValues[x - 1] == colorOfCurrentVertex);
                 countOfBadColoring += (double)(neighbors.Count(x => chromosomeValues[x - 1] == colorOfCurrentVertex) -1) /
@@ -29,7 +29,7 @@ namespace ISK_Proj.Genetics
 
             if (hasAnyNeighborSameColor)
             {
-                return -(countOfBadColoring + graph.Vertices.Count+1);
+                return -2 * countOfBadColoring;
             }
 
             return -(chromosomeValues.ToList().Distinct().Count());

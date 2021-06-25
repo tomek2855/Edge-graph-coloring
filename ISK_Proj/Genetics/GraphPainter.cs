@@ -55,11 +55,11 @@ namespace ISK_Proj.Genetics
 
             if (bestFitness > graph.Vertices.Count) return null;
 
-            int[] resultGenType = bestChromosome.GetValues();
+            var resultGenType = bestChromosome.GetValues();
 
-            IDictionary<int, int> verticesColors = new Dictionary<int, int>(graph.Vertices.Count);
+            var verticesColors = new Dictionary<int, int>(graph.Vertices.Count);
 
-            foreach (int vertice in graph.Vertices)
+            foreach (var vertice in graph.Vertices)
             {
                 verticesColors.Add(vertice, resultGenType[vertice - 1]);
             }

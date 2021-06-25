@@ -21,19 +21,19 @@ namespace ISK_Proj
 
         public IList<int> NeighborsList(int vertex)
         {
-            IEnumerable<int> vertexFromStarting = Edges.Where(x => x.Source == vertex).Select(x => x.Target);
-            IEnumerable<int> vertexFromEnding = Edges.Where(x => x.Target == vertex).Select(x => x.Source);
+            var vertexFromStarting = Edges.Where(x => x.Source == vertex).Select(x => x.Target);
+            var vertexFromEnding = Edges.Where(x => x.Target == vertex).Select(x => x.Source);
             return vertexFromEnding.Union(vertexFromStarting).Distinct().ToList();
         }
 
-        public string PrintColors()
+        public void Print()
         {
-            StringBuilder stringBuilder = new StringBuilder();
+            var stringBuilder = new StringBuilder();
             foreach (KeyValuePair<int, int> item in VerticesColors)
             {
                 stringBuilder.AppendLine($"Vertice: {item.Key} - Color: {item.Value}");
             }
-            return stringBuilder.ToString();
+            System.Console.WriteLine(stringBuilder.ToString());
         }
 
         public static Graph readFromFile(string path)
