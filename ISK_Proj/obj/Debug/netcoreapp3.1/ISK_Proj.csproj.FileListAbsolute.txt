@@ -4,13 +4,12 @@ I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.runtimeconfig.jso
 I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.runtimeconfig.dev.json
 I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.dll
 I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\ISK_Proj.pdb
-I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csprojAssemblyReference.cache
+I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Domain.dll
+I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Infrastructure.Framework.dll
 I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.AssemblyInfoInputs.cache
 I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.AssemblyInfo.cs
+I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CoreCompileInputs.cache
+I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CopyComplete
 I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.dll
 I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.pdb
 I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.genruntimeconfig.cache
-I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Domain.dll
-I:\ISK_Proj\ISK_Proj\ISK_Proj\bin\Debug\netcoreapp3.1\GeneticSharp.Infrastructure.Framework.dll
-I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CoreCompileInputs.cache
-I:\ISK_Proj\ISK_Proj\ISK_Proj\obj\Debug\netcoreapp3.1\ISK_Proj.csproj.CopyComplete
