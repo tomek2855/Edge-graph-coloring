@@ -25,14 +25,14 @@ namespace ISK_Proj.Genetics
         public Graph ColorGraph()
         {
             GraphProvider.SetGraph(graph);
-            GraphColoringChromosome chromosome = new GraphColoringChromosome(startValues.Length, startValues);
-            Population populationObject = new Population(populationSize, populationSize, chromosome);
-            GraphColoringFitness fitness = new GraphColoringFitness();
-            EliteSelection selection = new EliteSelection();
-            CutAndSpliceCrossover crossover = new CutAndSpliceCrossover();
-            GraphColoringMutation mutation = new GraphColoringMutation();
-            FitnessStagnationTermination termination = new FitnessStagnationTermination(50);
-            GeneticAlgorithm ga = new GeneticAlgorithm(populationObject, fitness, selection, crossover, mutation)
+            var chromosome = new GraphColoringChromosome(startValues.Length, startValues);
+            var populationObject = new Population(populationSize, populationSize, chromosome);
+            var fitness = new GraphColoringFitness();
+            var selection = new EliteSelection();
+            var crossover = new CutAndSpliceCrossover();
+            var mutation = new GraphColoringMutation();
+            var termination = new FitnessStagnationTermination(50);
+            var ga = new GeneticAlgorithm(populationObject, fitness, selection, crossover, mutation)
             { Termination = termination, MutationProbability = 0.1f };
             int latestFitness = int.MinValue;
             int bestFitness = 0;
@@ -51,7 +51,7 @@ namespace ISK_Proj.Genetics
             
             ga.Start();
 
-            Console.WriteLine("Generations count {0}", generationCounter);
+            Console.WriteLine("Liczba generacji: {0}", generationCounter);
 
             if (bestFitness > graph.Vertices.Count) return null;
 

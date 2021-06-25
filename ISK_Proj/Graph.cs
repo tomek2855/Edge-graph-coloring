@@ -31,7 +31,7 @@ namespace ISK_Proj
             var stringBuilder = new StringBuilder();
             foreach (KeyValuePair<int, int> item in VerticesColors)
             {
-                stringBuilder.AppendLine($"Vertice: {item.Key} - Color: {item.Value}");
+                stringBuilder.AppendLine($"Wierzchołek: {item.Key} - Kolor: {item.Value}");
             }
             System.Console.WriteLine(stringBuilder.ToString());
         }

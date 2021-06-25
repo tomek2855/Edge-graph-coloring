@@ -19,7 +19,7 @@ namespace ISK_Proj
 
         public string toString { get
             {
-                return $"Edge number: {Id} From: {Source} To: {Target}";
+                return $"Numer krawędzi: {Id} Z: {Source} Do: {Target}";
             }
         }
     }

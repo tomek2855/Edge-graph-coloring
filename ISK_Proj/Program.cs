@@ -20,7 +20,7 @@ namespace ISK_Proj
             var painter = new GraphPainter(graph, size, graph.Vertices.ToArray());
             var coloredGraph = painter.ColorGraph();
             coloredGraph.Print();
-            System.Console.WriteLine("Colors used: " + coloredGraph.VerticesColors.Select(x=>x.Value).Distinct().Count());
+            System.Console.WriteLine("Użyto kolorów: " + coloredGraph.VerticesColors.Select(x=>x.Value).Distinct().Count());
         }
     }
 }
